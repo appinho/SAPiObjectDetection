@@ -12,7 +12,7 @@ A repository to build a remote Object Detection system for the own use of real-l
 ```
 fdisk -l
 cd Downloads
-xzcat ubuntu-18.04.1-preinstalled-server-armhf+raspi2.img.xz | sudo dd bs=4M of=/dev/mmcblk0
+xzcat ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img | sudo dd bs=4M of=/dev/mmcblk0
 sudo fdisk -l /dev/mmcblk0
 ```
 
