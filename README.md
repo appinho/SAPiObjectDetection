@@ -16,7 +16,7 @@ xzcat ubuntu-18.04.1-preinstalled-server-armhf+raspi2.img.xz | sudo dd bs=4M of=
 sudo fdisk -l /dev/mmcblk0
 ```
 
-b) Plug SD Card into Raspberry Pi 3 and boot it up
+  b) Plug SD Card into Raspberry Pi 3 and boot it up
 
 ```
 sudo apt-get update
