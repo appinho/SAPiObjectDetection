@@ -4,7 +4,7 @@ Portable and demonstrative Food recognizer & Object Detection system on Raspberr
 
 ### Overview
 <p align="center">
-  <img src="./images/overview.jpg">
+  <img src="./images/overview.JPG">
 </p>
 
 Minimal requirements:
@@ -43,9 +43,11 @@ sudo apt-get upgrade
   * https://github.com/goodtft/LCD-show
 
 ### Goal
+
 <p align="center">
   <img src="./images/example.jpg">
 </p>
+
 Label: Buddha Bowl
 
 
