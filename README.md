@@ -1,12 +1,24 @@
 # SAPiObjectDetection
 
-A repository to build a remote Object Detection system for the own use of real-life traffic scenarios on a self-independent Raspberry Pi 3 system
+Portable and demonstrative Food recognizer & Object Detection system on Raspberry Pi 3
 
-## Installation
+### Overview
+<p align="center">
+  <img src="./images/overview.jpg">
+</p>
 
+Minimal requirements:
+  * [x] Supply -> Powerbank
+  * [x] Input -> Pi Camera
+  * [x] OS -> Ubuntu Mate (Raspbian)
+  * [ ] Software -> Nanonet?, PyImageSearch?
+  * [x] Output -> LCD 3.5 inch screen
 
-1) [Download Ubuntu Mate](https://ubuntu-mate.org/raspberry-pi/)
-2) [Setup](https://roboticsweekends.blogspot.com/2017/12/how-to-install-ros-on-raspberry-pi-2-or.html)  
+### How to do:
+
+1) Setup OS:
+  * [Download Ubuntu Mate](https://ubuntu-mate.org/raspberry-pi/)
+  * [Setup](https://roboticsweekends.blogspot.com/2017/12/how-to-install-ros-on-raspberry-pi-2-or.html)  
   * Determine SD Card (for me: /dev/mmcblk0) and flash SD Card:
 
 ```
@@ -23,12 +35,17 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-3) [Raspi Cam Node](https://discourse.ros.org/t/raspberry-pi-camera-node/1388)
+2) Run Software:
+  * PyImageSearch
+  * Nanonet
+  
+3) Install LCD Screen:
+  * https://github.com/goodtft/LCD-show
 
-```
-sudo apt install ros-kinetic-raspicam-node
-```
+### Goal
+<p align="center">
+  <img src="./images/example.jpg">
+</p>
+Label: Buddha Bowl
 
-## Other Sources
 
-https://www.youtube.com/watch?v=VFuHG-Ho4Fk
