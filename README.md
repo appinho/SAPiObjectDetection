@@ -46,7 +46,7 @@ sudo apt-get upgrade
 #### Software
 
 * PyImageSearch
-  * [OpenCV](https://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
+  * [OpenCV](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
   * [Object Detection](https://www.pyimagesearch.com/2017/10/16/raspberry-pi-deep-learning-object-detection-with-opencv/)
   * [Face Recognition](https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/)
 * [Tensorflow](https://www.makeuseof.com/tag/image-recognition-tensorflow-raspberry-pi/)
