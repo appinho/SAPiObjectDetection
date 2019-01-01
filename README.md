@@ -36,7 +36,7 @@ sudo apt-get upgrade
 
 #### Input
 
-
+* [Setup pi camera](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera)
   
 #### Output
 
@@ -47,8 +47,11 @@ sudo apt-get upgrade
 
 * PyImageSearch
   * [OpenCV](https://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
+  * [Object Detection](https://www.pyimagesearch.com/2017/10/16/raspberry-pi-deep-learning-object-detection-with-opencv/)
   * [Face Recognition](https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/)
-* Nanonet
+* [Tensorflow](https://www.makeuseof.com/tag/image-recognition-tensorflow-raspberry-pi/)
+* [Google Vision API](https://cloud.google.com/vision/)
+* [Nanonet]()
 
 ### Goal
 
