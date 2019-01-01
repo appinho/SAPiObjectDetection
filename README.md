@@ -9,38 +9,46 @@ Portable and demonstrative Food recognizer & Object Detection system on Raspberr
 
 Minimal requirements:
   * [x] Supply -> Powerbank
-  * [x] Input -> Pi Camera
-  * [x] OS -> Ubuntu Mate (Raspbian)
-  * [ ] Software -> Nanonet?, PyImageSearch?
+  * [x] OS -> Raspbian
   * [x] Output -> LCD 3.5 inch screen
+  * [x] Input -> Pi Camera
+  * [ ] Software -> Nanonet?, PyImageSearch?
 
-### How to do:
+### How to do
 
-1) Setup OS:
-  * [Download Ubuntu Mate](https://ubuntu-mate.org/raspberry-pi/)
-  * [Setup](https://roboticsweekends.blogspot.com/2017/12/how-to-install-ros-on-raspberry-pi-2-or.html)  
-  * Determine SD Card (for me: /dev/mmcblk0) and flash SD Card:
+#### OS
+
+1) [Download Raspbian Desktop](https://www.raspberrypi.org/downloads/raspbian/) and unzip it
+2) [Flash SD Card](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
 
 ```
-fdisk -l
+fdisk -l # (for me: /dev/mmcblk0)
 cd Downloads
-xzcat ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img | sudo dd bs=4M of=/dev/mmcblk0
-sudo fdisk -l /dev/mmcblk0
+sudo dd bs=4M if=2018-11-13-raspbian-stretch-full.img of=/YOUR/SDCARD conv=fsyncsudo fdisk -l /dev/mmcblk0
 ```
 
-  * Plug SD Card into Raspberry Pi 3 and boot it up
+3) Plug SD Card into Raspberry Pi 3, boot it up and run:  
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-2) Run Software:
-  * PyImageSearch
-  * Nanonet
+#### Input
+
+
   
-3) Install LCD Screen:
-  * https://github.com/goodtft/LCD-show
+#### Output
+
+* [Install LCD Screen](https://github.com/goodtft/LCD-show)
+
+
+#### Software
+
+* PyImageSearch
+  * [OpenCV](https://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/)
+  * [Face Recognition](https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/)
+* Nanonet
 
 ### Goal
 
@@ -50,4 +58,6 @@ sudo apt-get upgrade
 
 Label: Buddha Bowl
 
+### Other Sources
 
+[ROS](https://roboticsweekends.blogspot.com/2017/12/how-to-install-ros-on-raspberry-pi-2-or.html)  
